@@ -1,20 +1,20 @@
-body{
-    background-color: gray;
-}
-
-div{
-    background-color: blue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: row;
-    border-radius: 6px;
-    justify-content: center;
-    margin: 1.5em;
-}
-
-div img{
-    width: 50px;
+img{
+    width: 60px;
     height: auto;
+}
 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+img{
+    padding: 20px;
+    background-color: gray;
+    border-radius: 7px;
 }
 
